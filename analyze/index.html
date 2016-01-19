@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <title>eazyBI Draft</title>
+    <meta content='eazyBI Draft' name='description'>
+    <link href='/img/common/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+    <link href="/css/app.css" rel="stylesheet" />
+  </head>
+  <body class='analyze analyze_index'>
+    <header>
+      <div class='standard_wrap'>
+        <a class='logo' href='/_home'>
+          <img alt='eazyBI logo' src='/img/common/eazybi.png'>
+        </a>
+        <ul>
+          <li class=''><a href="/_home">Home</a></li>
+          <li class=''><a href="/source_data">Source Data</a></li>
+          <li class='current'><a href="/analyze">Analyze</a></li>
+          <li class=''><a href="/dashboards">Dashboards</a></li>
+        </ul>
+      </div>
+    </header>
+    <div id='content'>
+      <div class='analyze_content'>
+        <div class='analyze_cube'>
+          <div class='cube_head'>
+            <div class='cube_header'>
+              <span>
+                <i class='eazybi-cube'></i>
+                <h2>Lorem ipsum.</h2>
+              </span>
+              <div class='aui-buttons'>
+                <a class='aui-button aui-button-link' href='#'>Empty</a>
+                <a class='aui-button aui-button-link' href='#'>Delete</a>
+              </div>
+              <div class='cube_data'>
+                <h3>375 MB</h3>
+                <h3>10 days ago</h3>
+              </div>
+              <div class='cube_searchblock'>
+                <section>
+                  <span>Views:</span>
+                  <a class='current' href='/analyze'>
+                    <i class='fa fa-th'></i>
+                  </a>
+                  <a class='' href='/analyze/list'>
+                    <i class='fa fa-align-justify'></i>
+                  </a>
+                </section>
+                <section>
+                  <input placeholder='Search' type='search'>
+                  <button>
+                    <i class='fa fa-search'></i>
+                  </button>
+                </section>
+              </div>
+            </div>
+            <div class='cube_head_left'>
+              <div class='aui-buttons'>
+                <a class='aui-button aui-button-compact aui-button-primary' href='#'>New Report</a>
+                <a class='aui-button aui-button-compact' href='#'>New Folder</a>
+              </div>
+              <div class='aui-buttons'>
+                <a class='aui-button aui-button-compact' href='#'>Import Reports</a>
+                <a class='aui-button aui-button-compact' href='#'>Export Reports</a>
+              </div>
+            </div>
+            <div class='cube_head_right'>
+              <div class='aui-buttons hide_reports'>
+                <a class='aui-button aui-button-compact' href='#'>
+                  Hide Reports
+                  <i class='fa fa-sort-asc'></i>
+                </a>
+              </div>
+              <div class='aui-buttons show_reports'>
+                <a class='aui-button aui-button-compact' href='#'>
+                  Show Reports
+                  <i class='fa fa-sort-desc'></i>
+                </a>
+              </div>
+              <div class='aui-buttons custom_invisible'>
+                <a class='aui-button aui-button-compact' href='#'>
+                  <i class='fa fa-star-o'></i>
+                  Favourite
+                </a>
+                <a class='aui-button aui-button-compact' href='#'>
+                  <i class='fa fa-folder-open-o'></i>
+                  Move To
+                  <i class='fa fa-sort-desc'></i>
+                </a>
+                <a class='aui-button aui-button-compact' href='#'>
+                  <i class='fa fa-trash-o'></i>
+                  Delete
+                </a>
+              </div>
+              <div class='aui-buttons'>
+                <div class='aui-button aui-button-compact'>
+                  <input class='check_all' type='checkbox'>
+                  Select
+                  <i class='fa fa-sort-desc'></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class='cube_body'>
+            <section>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-folder'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>JIRA Demo Dashboards</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-folder_fav'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Zephyr Favourite Charts 2015</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-folder_private'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Zephyr Private Charts 2015</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-bar'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>JIRA Demo Issue bar chart</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-gantt'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Issues closed in last 30 days gantt</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-gauge'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>JIRA Demo - Issue Resolution Days gauge</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-line'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Sample - average age days - trend for last 30 days line chart</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-map'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Demo Version map</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-pie'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Example - Pie chart for issue with subtasks</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-scatter'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Demo Scatter Chart Sprints</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-timeline'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Sample open issues by component and priority timeline</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-table'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>JIRA Demo - Cumulative Issues table</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+            </section>
+          </div>
+        </div>
+        <div class='analyze_cube'>
+          <div class='cube_head'>
+            <div class='cube_header'>
+              <span>
+                <i class='eazybi-cube'></i>
+                <h2>Lorem ipsum.</h2>
+              </span>
+              <div class='aui-buttons'>
+                <a class='aui-button aui-button-link' href='#'>Empty</a>
+                <a class='aui-button aui-button-link' href='#'>Delete</a>
+              </div>
+              <div class='cube_data'>
+                <h3>375 MB</h3>
+                <h3>10 days ago</h3>
+              </div>
+              <div class='cube_searchblock'>
+                <section>
+                  <span>Views:</span>
+                  <a class='current' href='/analyze'>
+                    <i class='fa fa-th'></i>
+                  </a>
+                  <a class='' href='/analyze/list'>
+                    <i class='fa fa-align-justify'></i>
+                  </a>
+                </section>
+                <section>
+                  <input placeholder='Search' type='search'>
+                  <button>
+                    <i class='fa fa-search'></i>
+                  </button>
+                </section>
+              </div>
+            </div>
+            <div class='cube_head_left'>
+              <div class='aui-buttons'>
+                <a class='aui-button aui-button-compact aui-button-primary' href='#'>New Report</a>
+                <a class='aui-button aui-button-compact' href='#'>New Folder</a>
+              </div>
+              <div class='aui-buttons'>
+                <a class='aui-button aui-button-compact' href='#'>Import Reports</a>
+                <a class='aui-button aui-button-compact' href='#'>Export Reports</a>
+              </div>
+            </div>
+            <div class='cube_head_right'>
+              <div class='aui-buttons hide_reports'>
+                <a class='aui-button aui-button-compact' href='#'>
+                  Hide Reports
+                  <i class='fa fa-sort-asc'></i>
+                </a>
+              </div>
+              <div class='aui-buttons show_reports'>
+                <a class='aui-button aui-button-compact' href='#'>
+                  Show Reports
+                  <i class='fa fa-sort-desc'></i>
+                </a>
+              </div>
+              <div class='aui-buttons custom_invisible'>
+                <a class='aui-button aui-button-compact' href='#'>
+                  <i class='fa fa-star-o'></i>
+                  Favourite
+                </a>
+                <a class='aui-button aui-button-compact' href='#'>
+                  <i class='fa fa-folder-open-o'></i>
+                  Move To
+                  <i class='fa fa-sort-desc'></i>
+                </a>
+                <a class='aui-button aui-button-compact' href='#'>
+                  <i class='fa fa-trash-o'></i>
+                  Delete
+                </a>
+              </div>
+              <div class='aui-buttons'>
+                <div class='aui-button aui-button-compact'>
+                  <input class='check_all' type='checkbox'>
+                  Select
+                  <i class='fa fa-sort-desc'></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class='cube_body'>
+            <section>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-folder'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>JIRA Demo Dashboards</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-folder_fav'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Zephyr Favourite Charts 2015</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-folder_private'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Zephyr Private Charts 2015</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-bar'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>JIRA Demo Issue bar chart</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-gantt'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Issues closed in last 30 days gantt</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-gauge'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>JIRA Demo - Issue Resolution Days gauge</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-line'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Sample - average age days - trend for last 30 days line chart</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-map'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Demo Version map</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-pie'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Example - Pie chart for issue with subtasks</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-scatter'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Demo Scatter Chart Sprints</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-timeline'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Sample open issues by component and priority timeline</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-table'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>JIRA Demo - Cumulative Issues table</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+            </section>
+          </div>
+        </div>
+        <div class='analyze_cube'>
+          <div class='cube_head'>
+            <div class='cube_header'>
+              <span>
+                <i class='eazybi-cube'></i>
+                <h2>Lorem ipsum.</h2>
+              </span>
+              <div class='aui-buttons'>
+                <a class='aui-button aui-button-link' href='#'>Empty</a>
+                <a class='aui-button aui-button-link' href='#'>Delete</a>
+              </div>
+              <div class='cube_data'>
+                <h3>375 MB</h3>
+                <h3>10 days ago</h3>
+              </div>
+              <div class='cube_searchblock'>
+                <section>
+                  <span>Views:</span>
+                  <a class='current' href='/analyze'>
+                    <i class='fa fa-th'></i>
+                  </a>
+                  <a class='' href='/analyze/list'>
+                    <i class='fa fa-align-justify'></i>
+                  </a>
+                </section>
+                <section>
+                  <input placeholder='Search' type='search'>
+                  <button>
+                    <i class='fa fa-search'></i>
+                  </button>
+                </section>
+              </div>
+            </div>
+            <div class='cube_head_left'>
+              <div class='aui-buttons'>
+                <a class='aui-button aui-button-compact aui-button-primary' href='#'>New Report</a>
+                <a class='aui-button aui-button-compact' href='#'>New Folder</a>
+              </div>
+              <div class='aui-buttons'>
+                <a class='aui-button aui-button-compact' href='#'>Import Reports</a>
+                <a class='aui-button aui-button-compact' href='#'>Export Reports</a>
+              </div>
+            </div>
+            <div class='cube_head_right'>
+              <div class='aui-buttons hide_reports'>
+                <a class='aui-button aui-button-compact' href='#'>
+                  Hide Reports
+                  <i class='fa fa-sort-asc'></i>
+                </a>
+              </div>
+              <div class='aui-buttons show_reports'>
+                <a class='aui-button aui-button-compact' href='#'>
+                  Show Reports
+                  <i class='fa fa-sort-desc'></i>
+                </a>
+              </div>
+              <div class='aui-buttons custom_invisible'>
+                <a class='aui-button aui-button-compact' href='#'>
+                  <i class='fa fa-star-o'></i>
+                  Favourite
+                </a>
+                <a class='aui-button aui-button-compact' href='#'>
+                  <i class='fa fa-folder-open-o'></i>
+                  Move To
+                  <i class='fa fa-sort-desc'></i>
+                </a>
+                <a class='aui-button aui-button-compact' href='#'>
+                  <i class='fa fa-trash-o'></i>
+                  Delete
+                </a>
+              </div>
+              <div class='aui-buttons'>
+                <div class='aui-button aui-button-compact'>
+                  <input class='check_all' type='checkbox'>
+                  Select
+                  <i class='fa fa-sort-desc'></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class='cube_body'>
+            <section>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-folder'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>JIRA Demo Dashboards</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-folder_fav'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Zephyr Favourite Charts 2015</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-folder_private'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Zephyr Private Charts 2015</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-bar'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>JIRA Demo Issue bar chart</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-gantt'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Issues closed in last 30 days gantt</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-gauge'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>JIRA Demo - Issue Resolution Days gauge</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-line'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Sample - average age days - trend for last 30 days line chart</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-map'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Demo Version map</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-pie'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Example - Pie chart for issue with subtasks</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-scatter'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Demo Scatter Chart Sprints</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-timeline'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Sample open issues by component and priority timeline</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-table'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>JIRA Demo - Cumulative Issues table</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+            </section>
+          </div>
+        </div>
+        <div class='analyze_cube'>
+          <div class='cube_head'>
+            <div class='cube_header'>
+              <span>
+                <i class='eazybi-cube'></i>
+                <h2>Lorem ipsum.</h2>
+              </span>
+              <div class='aui-buttons'>
+                <a class='aui-button aui-button-link' href='#'>Empty</a>
+                <a class='aui-button aui-button-link' href='#'>Delete</a>
+              </div>
+              <div class='cube_data'>
+                <h3>375 MB</h3>
+                <h3>10 days ago</h3>
+              </div>
+              <div class='cube_searchblock'>
+                <section>
+                  <span>Views:</span>
+                  <a class='current' href='/analyze'>
+                    <i class='fa fa-th'></i>
+                  </a>
+                  <a class='' href='/analyze/list'>
+                    <i class='fa fa-align-justify'></i>
+                  </a>
+                </section>
+                <section>
+                  <input placeholder='Search' type='search'>
+                  <button>
+                    <i class='fa fa-search'></i>
+                  </button>
+                </section>
+              </div>
+            </div>
+            <div class='cube_head_left'>
+              <div class='aui-buttons'>
+                <a class='aui-button aui-button-compact aui-button-primary' href='#'>New Report</a>
+                <a class='aui-button aui-button-compact' href='#'>New Folder</a>
+              </div>
+              <div class='aui-buttons'>
+                <a class='aui-button aui-button-compact' href='#'>Import Reports</a>
+                <a class='aui-button aui-button-compact' href='#'>Export Reports</a>
+              </div>
+            </div>
+            <div class='cube_head_right'>
+              <div class='aui-buttons hide_reports'>
+                <a class='aui-button aui-button-compact' href='#'>
+                  Hide Reports
+                  <i class='fa fa-sort-asc'></i>
+                </a>
+              </div>
+              <div class='aui-buttons show_reports'>
+                <a class='aui-button aui-button-compact' href='#'>
+                  Show Reports
+                  <i class='fa fa-sort-desc'></i>
+                </a>
+              </div>
+              <div class='aui-buttons custom_invisible'>
+                <a class='aui-button aui-button-compact' href='#'>
+                  <i class='fa fa-star-o'></i>
+                  Favourite
+                </a>
+                <a class='aui-button aui-button-compact' href='#'>
+                  <i class='fa fa-folder-open-o'></i>
+                  Move To
+                  <i class='fa fa-sort-desc'></i>
+                </a>
+                <a class='aui-button aui-button-compact' href='#'>
+                  <i class='fa fa-trash-o'></i>
+                  Delete
+                </a>
+              </div>
+              <div class='aui-buttons'>
+                <div class='aui-button aui-button-compact'>
+                  <input class='check_all' type='checkbox'>
+                  Select
+                  <i class='fa fa-sort-desc'></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class='cube_body'>
+            <section>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-folder'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>JIRA Demo Dashboards</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-folder_fav'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Zephyr Favourite Charts 2015</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-folder_private'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Zephyr Private Charts 2015</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-bar'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>JIRA Demo Issue bar chart</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-gantt'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Issues closed in last 30 days gantt</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-gauge'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>JIRA Demo - Issue Resolution Days gauge</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-line'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Sample - average age days - trend for last 30 days line chart</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-map'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Demo Version map</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-pie'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Example - Pie chart for issue with subtasks</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-scatter'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Demo Scatter Chart Sprints</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-timeline'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>Sample open issues by component and priority timeline</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+              <span class='cube_cell'>
+                <div class='cell_icon'>
+                  <i class='eazybi-table'></i>
+                </div>
+                <a class='cell_text' href='#'>
+                  <p>JIRA Demo - Cumulative Issues table</p>
+                </a>
+                <button>
+                  <i class='fa fa-pencil'></i>
+                </button>
+              </span>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>©2016 EazyOne All rights reserved.</p>
+      <ul>
+        <li><a href="/pages/terms">Terms of Service</a></li>
+        <li><a href="/pages/privacy">Privacy Policy</a></li>
+        <li><a href="/pricing">Pricing</a></li>
+        <li><a target="_blank" href="https://docs.eazybi.com/display/EAZYBI">Documentation</a></li>
+        <li><a href="/contact">Contact Us</a></li>
+      </ul>
+    </footer>
+    <script src="/js/app.js"></script>
+  </body>
+</html>
